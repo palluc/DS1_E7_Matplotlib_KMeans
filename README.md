@@ -5,39 +5,71 @@ Decision Science 1 Class - Exercise 6
 ## Exploring Matplotlib and K-Means Clustering
 
 #### Objective
-The purpose of this program is to use the matplotlib Python library as a data visualization tool to graph 
+The purpose of this program is to use the matplotlib Python library as a data visualization tool to plot 'customer ID vs Spending Score' and then apply clustering Kmeans and distribute customers into 5 groups with different color markers in each group.
 
-K-Means is a common form of clustering that is frequently used of unsupervised learning. 
+Two subsequent graphs plot the 'income vs Spending Score' variables and apply clustering Kmeans and distribute customers into 5 groups.
 
+The K-Means is a common form of clustering that is frequently used of unsupervised learning. 
 
 #### Tools Used
 Required tools to run the program are :</br>
 \- Jupyter Notebook (It is recommended to install full Python distribution with Anaconda Python distribtion) </br>
-\- Car data in a csv file format containing the columns: model,mpg,cyl,disp,hp,drat,wt,qsec,vs,am,gear,carb</br>
+\- Customer data in a csv file format containing the columns: CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100)</br>
 
 #### Program walk-through
 - Launch the Jupyter Notebook: <br/>
 <p style="border: 2px solid #000000; padding: 1px;">
 <table><tr><td>
-<img src="https://github.com/user-attachments/assets/3c5112d2-6430-4258-90a1-87f0c0096729" width="80%" height="50%" alt="Launch the Jupyter Notebook" />
+<img src="https://github.com/user-attachments/assets/3947e754-a58e-410d-a994-ffe071acac9d" width="80%" height="50%" alt="Launch the Jupyter Notebook" />
 </td></tr></table>
 </p>
 </br>
 
-- Read in the data from a CSV file and view the data: <br/>
+- Read in the customer data from a CSV file and view the data: <br/>
 <p style="border: 2px solid #000000; padding: 1px;">
 <table><tr><td>
-<img src="https://github.com/user-attachments/assets/b9e0df24-6e5a-4718-95c1-4f901b78d5e3" width="80%" height="50%" alt="View car data"/>
+<img src="https://github.com/user-attachments/assets/384b7388-3e44-47d2-b00b-059a17cf5f30" width="80%" height="50%" alt="View car data"/>
 </td></tr>  
 </table>
 </p>
 </br>
 
-- Show the scatter and linear regression plot with an annotation for the predicted value corresponding to the 4.5 tons weight: </br>
+- Show the scatter plot for 'Customer ID vs Spending Score': </br>
 <p style="border: 2px solid #000000; padding: 1px;">
 <table>
 <tr><td> 
-<img src="https://github.com/user-attachments/assets/91370a02-1097-43a9-be9c-b739f58d1250" height="80%" width="70%" alt="Show plot" style="border: 2px solid black;"/></br>
+<img src="https://github.com/user-attachments/assets/169600ae-99d7-4bef-89cd-7a6cfcfa4486" height="80%" width="70%" alt="Show plot" style="border: 2px solid black;"/></br>  
 </td></tr>
 </table>
 </p>
+</br>
+
+- Show the scatter plot for 'Customer ID vs Spending Score' with clustering and customers distributed into 5 groups.  Color the groups:</br>
+<p style="border: 2px solid #000000; padding: 1px;">
+<table>
+<tr><td> 
+<img src="https://github.com/user-attachments/assets/5287100f-f08a-4a48-a7e8-1950a5c44b66" height="80%" width="70%" alt="Show plot" style="border: 2px solid black;"/></br>
+</td></tr>
+</table>
+</p>
+</br>
+
+- Show the scatter plot for 'Income vs Spending Score':</br>
+<p style="border: 2px solid #000000; padding: 1px;">
+<table>
+<tr><td> 
+<img width="775" height="554" alt="image" src="https://github.com/user-attachments/assets/0aa5d2a1-cebf-431e-84c2-95dadec45353" />
+</td></tr>
+</table>
+</p>
+</br>
+
+- Show the scatter plot for 'Income vs Spending Score' with clustering and customers distributed into 5 groups, using color in each group:</br>
+<p style="border: 2px solid #000000; padding: 1px;">
+<table>
+<tr><td> 
+<img src="https://github.com/user-attachments/assets/ecbf52f3-6181-4c37-b668-53b7d2fe3cd7" height="80%" width="70%" alt="Show plot" style="border: 2px solid black;"/></br>
+</td></tr>
+</table>
+</p>
+</br>
